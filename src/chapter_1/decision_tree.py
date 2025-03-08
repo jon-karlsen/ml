@@ -11,7 +11,7 @@ def get_mae(max_leaf_nodes, train_X, val_X, train_y, val_y):
 
     return mae
 
-iowa_file_path = '../data/train.csv'
+iowa_file_path = '../../data/chapter_1/train.csv'
 home_data = pd.read_csv(iowa_file_path)
 
 y = home_data.SalePrice

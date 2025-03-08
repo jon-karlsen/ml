@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error
 
-iowa_file_path = '../data/train.csv'
+iowa_file_path = '../../data/chapter_1/train.csv'
 home_data = pd.read_csv(iowa_file_path)
 home_data = home_data.dropna(axis=1)
 
