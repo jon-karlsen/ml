@@ -14,8 +14,6 @@ def get_mae(max_leaf_nodes, train_X, val_X, train_y, val_y):
 iowa_file_path = '../data/train.csv'
 home_data = pd.read_csv(iowa_file_path)
 
-#print(home_data.columns)
-
 y = home_data.SalePrice
 
 feature_names = ['Lot Area', 'Year Built', '1st Flr SF', '2nd Flr SF', 'Full Bath', 'Bedroom AbvGr', 'TotRms AbvGrd']
